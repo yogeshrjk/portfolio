@@ -1,5 +1,5 @@
 var typed6 = new Typed('#typed6', {
-    strings: ['Let\'s bring your ideas to life.'],
+    strings: ['Web Developer | Learning new skills'],
     
     typeSpeed: 80,
     backSpeed: 0,
