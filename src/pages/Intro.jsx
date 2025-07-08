@@ -66,23 +66,12 @@ export default function Intro() {
         {/* text */}
         <div className="flex flex-col justify-center items-start p-4 mx-auto lg:mx-0 select-none">
           <div className="flex flex-col justify-center items-start sm:w-sm md:w-md lg:w-lg ">
-            <h3
-              className="text-lg"
-              style={{ fontFamily: "poppins", fontWeight: 500 }}
-            >
-              Hello!
-            </h3>
-            <h5
-              className="text-lg"
-              style={{ fontFamily: "poppins", fontWeight: 500 }}
-            >
+            <h3 className="text-base lg:text-lg">Hello!</h3>
+            <h5 className="text-sm lg:text-lg font-normal">
               I'm Yogesh Rajak.
             </h5>
             {/* Show this only on small screens */}
-            <p
-              className="text-xs lg:text-sm text-justify w-full py-2"
-              style={{ fontFamily: "poppins", fontWeight: 500 }}
-            >
+            <p className="text-xs lg:text-base text-justify w-full py-2 font-normal">
               I’m a passionate fontend developer with a B.Tech in Information
               Technology and 1.5 years of hands-on experience working at a
               startup, where I primarily focused on frontend development. During
@@ -104,8 +93,8 @@ export default function Intro() {
               projects within the tech community.
             </p>
           </div>
-          <h4 className="text-sm mb-5">I am familiar with:</h4>
-          <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-4 text-xs text-center">
+          <h4 className="text-base lg:text-lg mb-5">I am familiar with:</h4>
+          <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-4 text-xs lg:text-base text-center">
             {techStack.map((tech, index) => (
               <div key={index} className="flex flex-col items-center">
                 {tech.isSvg ? (

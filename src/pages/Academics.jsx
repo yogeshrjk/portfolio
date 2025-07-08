@@ -19,43 +19,57 @@ export default function Academics() {
         </div>
 
         {/* Hero text */}
-        <div className="flex flex-col justify-center items-start sm:w-sm md:w-md lg:w-lg p-4 mx-auto lg:mx-0 select-none p2 poppins-override">
-          <h4 className="text-lg lg:text-xl">Education</h4>
+        <div className="flex flex-col justify-center items-start sm:w-sm md:w-md lg:w-lg p-4 mx-auto lg:mx-0 select-none p2">
+          <h4 className="text-lg mb-5">Education</h4>
 
-          <div>
-            <h5 className="text-sm lg:text-md font-medium">
+          <div className="mt-1">
+            <h5 className="text-base lg:text-lg font-normal">
               B.Tech. (Information Technology)
             </h5>
-            <h6 className="text-xs lg:text-md text-gray-700">
+            <h6 className="text-sm lg:text-base text-gray-700 font-normal">
               Shri Shankaracharya Institute of Professional Management and
               Technology, Raipur, Chhattisgarh
             </h6>
-            <span className="text-xs lg:text-md text-gray-500">2017-2021</span>
+            <p className="text-sm lg:text-base text-gray-500 font-normal">
+              2017-2021
+            </p>
           </div>
 
-          <div>
-            <h5 className="text-sm lg:text-md font-medium">12th</h5>
-            <h6 className="text-xs lg:text-md text-gray-700">
+          <div className="mt-3">
+            <h5 className="text-base lg:text-lg font-normal">12th</h5>
+            <h6 className="text-sm lg:text-base text-gray-700 font-normal">
               Higher Secondary School Jamgaon, Dist. Kanker, Chhattisgarh
             </h6>
-            <span className="text-xs lg:text-md text-gray-500">2016-2017</span>
+            <p className="text-sm lg:text-base text-gray-500 font-normal">
+              2016-2017
+            </p>
           </div>
 
           <hr className="my-4 w-full border-gray-400" />
 
           <div className="skills space-y-1">
-            <h4 className="text-lg lg:text-xl">Experience</h4>
-            <h5 className="text-sm lg:text-md font-medium">
+            <h4 className="text-lg mb-5">Experience</h4>
+            <h5 className="text-base lg:text-lg font-normal">
               Front-end Developer | Tech36garh
             </h5>
-            <span className="text-xs lg:text-md text-gray-500">
-              October 2022 - june 2024 (1.8 years)
-            </span>
-            <ul className="list-disc list-inside space-y-1 text-xs text-gray-700">
-              <li>Developed responsive UIs using React.js, JavaScript, and Bootstrap.</li>
-                <li>Improved site performance by 30%, reducing load times significantly.</li>
-                <li>Fixed 50+ frontend bugs, enhancing UX and UI responsiveness.</li>
-                <li>Integrated APIs and optimized components with lazy loading.</li>
+            <p className="text-sm lg:text-base text-gray-500 font-normal">
+              October 2022 - May 2024 (1.8 years)
+            </p>
+            <ul className="list-disc list-inside space-y-1 text-sm lg:text-base text-gray-700">
+              <li>
+                Developed responsive UIs using React.js, JavaScript, and
+                Bootstrap.
+              </li>
+              <li>
+                Improved site performance by 30%, reducing load times
+                significantly.
+              </li>
+              <li>
+                Fixed 50+ frontend bugs, enhancing UX and UI responsiveness.
+              </li>
+              <li>
+                Integrated APIs and optimized components with lazy loading.
+              </li>
             </ul>
           </div>
         </div>
