@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <div className="min-h-[100svh] relative overflow-hidden">
+    <div className="h-[100svh] overflow-hidden relative">
       <Analytics />
       <Navbar />
       <Routes>

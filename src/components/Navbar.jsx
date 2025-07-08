@@ -31,7 +31,7 @@ export const Navbar = () => {
           <motion.h3
             whileHover={{ scale: 1.5 }}
             whileTap={{ scale: 0.95 }}
-            className="text-lg text-center md:text-2xl"
+            className="text-lg text-center md:text-start md:text-2xl"
           >
             Yogesh Rajak
           </motion.h3>

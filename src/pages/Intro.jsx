@@ -71,7 +71,7 @@ export default function Intro() {
               I'm Yogesh Rajak.
             </h5>
             {/* Show this only on small screens */}
-            <p className="text-xs lg:text-base text-justify w-full py-2 font-normal">
+            <p className="text-xs lg:text-sm text-justify w-full py-2 pr-5 font-normal">
               I’m a passionate fontend developer with a B.Tech in Information
               Technology and 1.5 years of hands-on experience working at a
               startup, where I primarily focused on frontend development. During
@@ -94,7 +94,7 @@ export default function Intro() {
             </p>
           </div>
           <h4 className="text-base lg:text-lg mb-5">I am familiar with:</h4>
-          <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-4 text-xs lg:text-base text-center">
+          <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-6 mr-5 gap-2 md:gap-4 text-xs lg:text-base text-center">
             {techStack.map((tech, index) => (
               <div key={index} className="flex flex-col items-center">
                 {tech.isSvg ? (
