@@ -63,7 +63,7 @@ export default function Project() {
         </div>
 
         {/* projects */}
-        <div className="flex flex-col gap-3 p-4 w-full overflow-y-auto max-h-[calc(100vh-64px)] scrollbar-hide pr-3">
+        <div className="flex flex-col gap-3 p-4 mb-5 w-full overflow-y-auto max-h-[calc(100vh-64px)] scrollbar-hide pr-3">
           {projects.map((project, index) => (
             <motion.div
               initial={{ opacity: 0, x: -100 }}
