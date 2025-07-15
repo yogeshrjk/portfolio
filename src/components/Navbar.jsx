@@ -29,7 +29,7 @@ export const Navbar = () => {
         {/* logo */}
         <div className="w-full md:w-1/3 text-center lg:text-start">
           <motion.h3
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             className="text-lg text-center md:text-start md:text-2xl"
           >
