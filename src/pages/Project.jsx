@@ -6,7 +6,7 @@ export default function Project() {
     {
       imgSrc: "/images/aichat.png",
       name: "AI-Chat",
-      live: "ai-chat-8534mtk4k-yogesh-rajaks-projects.vercel.app",
+      live: "https://ai-chat-8534mtk4k-yogesh-rajaks-projects.vercel.app",
       github: "https://github.com/yogeshrjk/AI-Chat",
       desc: "AI Chat Web App is a full-stack application that lets users chat with an AI assistant and instantly hear its responses through text-to-speech. It features secure authentication, persistent chat history with audio playback, and a clean, responsive UI built with React and GraphQL.",
     },
